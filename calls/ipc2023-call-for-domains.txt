@@ -16,12 +16,13 @@ of the IPC are to promote planning research, highlight challenges in the
 planning community, and provide new and interesting problems as benchmarks for
 future research.
 
-If you would like to design a domain for the competition please contact us as
-soon as possible (ipc2023@googlegroups.com). We will collaborate in adapting
-the domains to suit the IPC, but we ask you to think about the ability to
-easily scale problem difficulty. If you don't have a domain yourself, but you
-can think of someone who might have an interesting planning problem, please
-share this call with them.
+If you would like to design a domain for the competition please contact us
+before September 30 (ipc2023@googlegroups.com). An informal email telling us you
+want to make a submission is enough. We will then collaborate in adapting the
+domains to suit the IPC, but we ask you to think about the ability to easily
+scale problem difficulty. If you don't have a domain yourself, but you can think
+of someone who might have an interesting planning problem, please share this
+call with them.
 
 While not necessary, it is desirable for the domains to be related to real
 applications. Moreover, if a domain-dependent planner for the submitted domain
