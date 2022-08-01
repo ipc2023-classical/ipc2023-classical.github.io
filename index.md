@@ -5,22 +5,28 @@ This is the website for the classical (sequential, deterministic) track of the
 This is the 10th IPC containing classical tracks making it the oldest part of
 IPC.
 
+
 ## Calls
-Comming soon
+Please forward the following calls to all interested parties.
+
+ - [Call for Domains](calls/ipc2023-call-for-domains.txt)
+
 
 ## Preliminary Schedule
 
-| Event                                         | Date             |
-|:----------------------------------------------|:-----------------|
-| Call for domains / expression of interest     | July, 2022       |
-| Domain submission deadline                    | December, 2022   |
-| Demo problems provided                        | December, 2022   |
-| Initial planner submission                    | January, 2023    |
-| Feature stop (final planner submission)       | March, 2023      |
-| Planner Abstract submission deadline          | May, 2023        |
-| Contest run                                   | May - June, 2023 |
-| Results announced                             | July, 2023       |
-| Result analysis deadline                      | August, 2023     |
+| Event                                         | Date               |
+|:----------------------------------------------|:-------------------|
+| Call for domains                              | August 1, 2022     |
+| Call for participation                        | August, 2022       |
+| Domain expression of interest deadline        | September 30, 2022 |
+| Domain submission deadline                    | December 9, 2022   |
+| Demo problems provided                        | December, 2022     |
+| Initial planner submission                    | January, 2023      |
+| Feature stop (final planner submission)       | March, 2023        |
+| Planner Abstract submission deadline          | May, 2023          |
+| Contest run                                   | May - June, 2023   |
+| Results announced                             | July, 2023         |
+| Result analysis deadline                      | August, 2023       |
 
 
 ## Tracks
