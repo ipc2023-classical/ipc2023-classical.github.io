@@ -59,8 +59,6 @@ Please forward the following calls to all interested parties.
  - If an invalid plan is returned, all tasks in the domain are counted as unsolved.
  - If that happens in more than one domain, the entry is disqualified.
 
-**More tracks comming soon**
-
 
 ## PDDL Fragment
 IPC 2023 will use a subset of PDDL 3.1, as done since IPC 2011. Planners must
