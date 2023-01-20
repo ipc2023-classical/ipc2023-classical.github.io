@@ -124,6 +124,9 @@ participate in multiple tracks, see "Apptainer Images" for details.
 
 ## Apptainer Images
 
+We prepared a [demo submission](https://github.com/ipc2023-classical/submission-demo)
+that showcases how to set up the repository and Apptainer scripts.
+
 Your Apptainer recipe files have to specify the following labels:
 
 * `Name`: name of the planner
