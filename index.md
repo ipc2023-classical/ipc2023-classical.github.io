@@ -113,7 +113,7 @@ all related data accessible from one place.
 
 This year, we will also allow to submit multiple planners to multiple tracks
 from a single repository. In each repository, we only consider the branch
-`main`. Feel free to use other branches for development as you wish, but we will
+`ipc2023-classical`. Feel free to use other branches for development as you wish, but we will
 ignore them. Any file called `Apptainer.<shortname>` in the root directory of
 this branch defines one entry. For the `<shortname>`, please use the name and
 variant of your planner as a short identifier (a single word, up to 16
