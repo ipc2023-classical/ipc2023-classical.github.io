@@ -134,7 +134,20 @@ Your Apptainer recipe files have to specify the following labels:
 * `Authors`: a list of authors, including contact email addresses (`Firstname Lastname <firstname.lastname@email.example>`)
 * `License`: the license under which you publish this code. It has to be permissive enough to allow us to publish the code after the competition.
 * `Tracks`: a comma-separated list of tracks this image should participate in. Use only the following terms to identify tracks: `optimal`, `satisficing`, `agile`. For example, to run your planner in the optimal and agile track use `Tracks optimal, agile`.
-* PDDL Support: TBD
+* Your Apptainer recipe must contain all of the following labels describing
+supported PDDL features. Each label must be set to either `yes` or `no`, or if
+the feature is supported only partially, then set it to `partially, ` followed
+by the description of what is and isn't supported:
+
+  * `SupportsDerivedPredicates`: specify whether your planner supports `(:derived ...)` construct
+  * `SupportsUniversallyQuantifiedPreconditions`: `(forall ...)` in actions' preconditions
+  * `SupportsExistentiallyQuantifiedPreconditions`: `(exists ...)` in actions' preconditions
+  * `SupportsUniversallyQuantifiedEffects`: `(forall ...)` in actions' effects
+  * `SupportsNegativePreconditions`: `(not (...))` in actions' preconditions
+  * `SupportsEqualityPreconditions`: `(= ?x obj1)`, for action parameter `?x` and constant `obj1`, in actions' preconditions
+  * `SupportsInequalityPreconditions`: `(not (= ?x ?y))` or `(not (= ?x obj1))`, for action parameters `?x` and `?y`, and constant `obj1`, in actions' preconditions
+  * `SupportsConditionalEffects`: `(when ...)` in actions' effects
+  * `SupportsImplyPreconditions`: `(imply ...)` in actions' preconditions
 
 To improve reproducibility, we require Apptainer images to be self-contained and licensed appropriately.
 
@@ -186,12 +199,12 @@ analysis of the results was successful. After the feature stop deadline, we will
 run all planners on all tasks and give the participants access to the results of
 their planners. For each run, the data will contain the log files of the
 planner, measured time and memory consumption, exit code, and our conclusion
-about what this this means in terms of solving the instance. We ask participants
+about what this means in terms of solving the instance. We ask participants
 to check their results for any errors. If an error was caused by a bug in the
 planner, please send a pull request on Github with a detailed description of the
 bug and the fix. If the error was on our side (e.g., malformed PDDL) let us know
 as soon as possible. We will do at least two rounds of this starting after the
-"feature stop" deadline (exact timeline TDB).
+"feature stop" deadline (exact timeline TBD).
 
 
 ## Planner Abstract Submission
