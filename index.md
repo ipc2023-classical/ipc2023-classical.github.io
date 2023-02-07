@@ -122,6 +122,16 @@ underscores). If you build different versions of your planner from the same
 repository, use a different `<shortname>` per version. A single entry can
 participate in multiple tracks, see "Apptainer Images" for details.
 
+We got many registrations and in particular many registrations with
+multiple submissions in a team. To keep the computation time manageable, we
+ask that you limit your submissions to one variant per planner. If two of
+your submissions are substantially different ideas, it is of course fine to
+submit both. As a guideline, if two submissions would be described with two
+planner abstracts, then they are two submissions. If you would describe them
+in one planner abstract with a short paragraph describing the differences
+between them, they are variants of the same planner.
+
+
 ## Apptainer Images
 
 We prepared a [demo submission](https://github.com/ipc2023-classical/submission-demo)
