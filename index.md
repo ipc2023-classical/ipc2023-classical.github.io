@@ -131,6 +131,23 @@ planner abstracts, then they are two submissions. If you would describe them
 in one planner abstract with a short paragraph describing the differences
 between them, they are variants of the same planner.
 
+After some discussions, we decided to allow multiple variants of the same
+planner if you think they are likely end up on very different spots in
+scoring (i.e., not next to each other).
+In that case, you should still
+write two planner abstracts, but one may discuss the difference to the
+other submission. In that case, we ask you to write a paragraph into the
+second planner abstract that discusses your reasons of why you think
+this should be a separate submission, i.e., why you think these two
+submissions will not end up next to each other in the scoring. In the
+post-IPC analysis, we then ask you to evaluate this reasoning: if the
+planners indeed ended up in very different spots, what made the
+difference? If they ended up next to each other, why did this happen?
+Moreover, if the leaderboard ends up with multiple variants of the same
+planner in the first places, we reserve the right to merge these entries.
+New variants can be submitted until April 16 via pull requests.
+
+
 
 ## Apptainer Images
 
@@ -162,7 +179,7 @@ by the description of what is and isn't supported:
 To improve reproducibility, we require Apptainer images to be self-contained and licensed appropriately.
 
 * The recipe should copy the content of the repository into the container at the
-start of the build. In particular, do not clone repositories in the recipe. 
+start of the build. In particular, do not clone repositories in the recipe.
 
 * If you use third-party libraries, either install them through standard package
 managers (apt, yum, pip), or copy them into the repository. Please do not use
