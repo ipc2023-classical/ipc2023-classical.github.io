@@ -23,7 +23,7 @@ Please forward the following calls to all interested parties.
 | Demo problems provided                        | December, 2022     |
 | Planner registration                          | January 13, 2023   |
 | Feature stop (final planner submission)       | March 24, 2023     |
-| Planner Abstract submission deadline          | April 14, 2023     |
+| Planner Abstract submission deadline          | April 21, 2023     |
 | Contest run                                   | May - June, 2023   |
 | Results announced                             | July, 2023         |
 | Result analysis deadline                      | August, 2023       |
