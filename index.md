@@ -74,6 +74,278 @@ the entire planning task prior to start solving it. In IPC 2023, we will
 follow in the steps of the previous IPC by including domains and problems that
 are hard to ground.
 
+## Participants
+
+
+### Optimal Track
+
+* **SymBD** [(planner abstract)](TODOSymBD_2023_opt_optimal.pdf)  
+  *Alvaro Torralba*  
+  Symbolic Bidirectonal Blind Search
+
+* **FTSPlan** [(planner abstract)](TODOfts_sbd_opt_optimal.pdf)  
+  *Alvaro Torralba*  
+  Optimal planner based on reformulation and search under the merge-and-shrink representation search. After reformulation uses symbolic bidirectional search
+
+* **Hapori MIPlan Optimal All Data** [(planner abstract)](abstracts/planner19_hapori_mip2.pdf)  
+  *Patrick Ferber, Michael Katz, Jendrik Seipp, Silvan Sievers, Daniel Borrajo, Isabel Cenamor, Tomas de la Rosa, Fernando Fernandez-Rebollo, Carlos Linares, Sergio Nunez, Alberto Pozanco, Horst Samulowitz, Shirin Sohrabi*  
+  Sequential portfolio of optimal IPC planners computed with the MIP formulation by Nunez, Borrajo and Linares (2015).
+
+* **Ragnarok** [(planner abstract)](abstracts/planner17_ragnarok.pdf)  
+  *Dominik Drexler, Daniel Gnad, Paul Höft, Jendrik Seipp, David Speck, Simon Ståhlberg*  
+  Sequential portfolio of optimal planners developed at Linköping University
+
+* **Hapori Stone Soup Optimal** [(planner abstract)](abstracts/planner19_hapori_stonesoup.pdf)  
+  *Patrick Ferber, Michael Katz, Jendrik Seipp, Silvan Sievers, Daniel Borrajo, Isabel Cenamor, Tomas de la Rosa, Fernando Fernandez-Rebollo, Carlos Linares, Sergio Nunez, Alberto Pozanco, Horst Samulowitz, Shirin Sohrabi*  
+  Sequential portfolio of optimal IPC planners computed with the Stone Soup algorithm
+
+* **FTSPlan** [(planner abstract)](TODOfts_ms_opt_optimal.pdf)  
+  *Alvaro Torralba*  
+  Optimal planner based on reformulation and search under the merge-and-shrink representation search. After reformulation uses A* with the merge-and-shink heuristic.
+
+* **CEGAR Abstractions** [(planner abstract)](abstracts/planner34_cegarabstractions.pdf)  
+  *Raphael Kreft, Silvan Sievers*  
+  Pattern Databases for interesting patterns up to size 2, patterns computed with hill climbing and CEGAR, combined with domain abstractions and Cartesian abstractions computed with CEGAR in a maximum heuristic over SCP heuristics, generated through greedy computation of hybrid-optimized orders.
+
+* **QDom-Lmcut** [(planner abstract)](TODOdom_opt_optimal.pdf)  
+  *Alvaro Torralba*  
+  Dominance Pruning
+
+* **Hapori Explainable Planner Selection - Single Decision Tree Optimal** [(planner abstract)](abstracts/planner19_hapori_epsdt.pdf)  
+  *Patrick Ferber, Michael Katz, Jendrik Seipp, Silvan Sievers, Daniel Borrajo, Isabel Cenamor, Tomas de la Rosa, Fernando Fernandez-Rebollo, Carlos Linares, Sergio Nunez, Alberto Pozanco, Horst Samulowitz, Shirin Sohrabi*  
+  Planner selection portfolio as described in Explainable Planner Selection for Classical Planning (AAAI 2022) using Fawcetts et al (ICAPS 2014) PDDL features and linear regression.
+
+* **Hapori Delfi Optimal** [(planner abstract)](abstracts/planner19_hapori_delfi.pdf)  
+  *Patrick Ferber, Michael Katz, Jendrik Seipp, Silvan Sievers, Daniel Borrajo, Isabel Cenamor, Tomas de la Rosa, Fernando Fernandez-Rebollo, Carlos Linares, Sergio Nunez, Alberto Pozanco, Horst Samulowitz, Shirin Sohrabi*  
+  Planner selection portfolio as described in Deep Learning for Cost-Optimal Planning: Task-Dependent Planner Selection (Sievers AAAI 2019)
+
+* **Symk** [(planner abstract)](abstracts/planner3_symk.pdf)  
+  *David Speck*  
+  Symbolic bidirectional blind search
+
+* **Hapori Greedy Optimal** [(planner abstract)](abstracts/planner19_hapori_greedy.pdf)  
+  *Patrick Ferber, Michael Katz, Jendrik Seipp, Silvan Sievers, Daniel Borrajo, Isabel Cenamor, Tomas de la Rosa, Fernando Fernandez-Rebollo, Carlos Linares, Sergio Nunez, Alberto Pozanco, Horst Samulowitz, Shirin Sohrabi*  
+  Sequential portfolio of optimal IPC planners computed with the greedy offline approximation algorithm by Streeter and Smith (UAI 2008).
+
+* **DecAbStar** [(planner abstract)](abstracts/planner18_decabstar.pdf)  
+  *Daniel Gnad, Silvan Sievers, Alvaro Torralba*  
+  Optimal planner based on decoupled state-space search and abstraction heuristics.
+
+* **Fast Downward Stone Soup 2023 Optimal** [(planner abstract)](abstracts/planner28_fdss_2023.pdf)  
+  *Clemens Büchner, Remo Christen, Augusto Blaas Corrêa, Salomé Eriksson, Patrick Ferber, Jendrik Seipp, Silvan Sievers*  
+  Portfolio of configurations from the main Fast Downward branch, scheduled with the Stone Soup algorithm.
+
+* **DALAI 2023 Optimal** [(planner abstract)](abstracts/planner4_dalai.pdf)  
+  *Clemens Büchner, Remo Christen, Salomé Eriksson, Thomas Keller*  
+  Disjunctive Action Landmarks All In -- Path-dependent landmark heuristic search tailored to find optimal solutions.
+
+* **DecStar-2023** [(planner abstract)](abstracts/planner15_decstar.pdf)  
+  *Daniel Gnad, Alvaro Torralba, Alexander Shleyfman*  
+  Optimal planner based on decoupled state-space search.
+
+* **Odin** [(planner abstract)](abstracts/planner2_odin.pdf)  
+  *Dominik Drexler, Jendrik Seipp, David Speck*  
+  Transition cost partitioning over abstraction heuristics
+
+* **Hapori Explainable Planner Selection - Linear Regression Optimal** [(planner abstract)](abstracts/planner19_hapori_epslr.pdf)  
+  *Patrick Ferber, Michael Katz, Jendrik Seipp, Silvan Sievers, Daniel Borrajo, Isabel Cenamor, Tomas de la Rosa, Fernando Fernandez-Rebollo, Carlos Linares, Sergio Nunez, Alberto Pozanco, Horst Samulowitz, Shirin Sohrabi*  
+  Planner selection portfolio as described in Explainable Planner Selection for Classical Planning (AAAI 2022) using Fawcetts et al (ICAPS 2014) PDDL features and linear regression.
+
+* **Dofri** [(planner abstract)](abstracts/planner21_dofri.pdf)  
+  *Paul Höft, David Speck, Jendrik Seipp*  
+  forward search with A* and the Saturated Post-Hoc optimization heuristic that selectively reuses previous SPhO LP solutions.
+
+* **Hapori IBaCop2 Sat** [(planner abstract)](abstracts/planner19_hapori_ibacop2.pdf)  
+  *Patrick Ferber, Michael Katz, Jendrik Seipp, Silvan Sievers, Daniel Borrajo, Isabel Cenamor, Tomas de la Rosa, Fernando Fernandez-Rebollo, Carlos Linares, Sergio Nunez, Alberto Pozanco, Horst Samulowitz, Shirin Sohrabi*  
+  Sequential portfolio of optimal IPC planners computed on an instance-based fashion. A set of 3 planners are pre-selected based on PDDL task and heuristic features.
+
+* **Scorpion 2023** [(planner abstract)](abstracts/planner25_scorpion_2023.pdf)  
+  *Jendrik Seipp*  
+  Saturated cost partitioning over abstraction heuristics.
+
+
+### Satisficing Track
+
+* **Hapori Explainable Planner Selection - Single Decision Tree Satisficing** [(planner abstract)](abstracts/planner19_hapori_epsdt.pdf)  
+  *Patrick Ferber, Michael Katz, Jendrik Seipp, Silvan Sievers, Daniel Borrajo, Isabel Cenamor, Tomas de la Rosa, Fernando Fernandez-Rebollo, Carlos Linares, Sergio Nunez, Alberto Pozanco, Horst Samulowitz, Shirin Sohrabi*  
+  Planner selection portfolio as described in Explainable Planner Selection for Classical Planning (AAAI 2022) using Fawcetts et al (ICAPS 2014) PDDL features and linear regression.
+
+* **TFTM2** [(planner abstract)](abstracts/planner22_tftm_co1.pdf)  
+  *Alex Tuisov, Michael Katz*  
+  Planner based on the IJCAI 2021 paper The Fewer the Merrier: [Pruning Preferred Operators with Novelty](https://www.ijcai.org/proceedings/2021/0576.pdf).
+
+* **Spock** [(planner abstract)](abstracts/planner1_spock.pdf)  
+  *Jendrik Seipp, Mauricio Salerno, Raquel Fuentetaja*  
+  FDSS 2018 with action elimination. Removes redundant actions from each found plan to -potentially- rapidly find a cheaper plan.
+
+* **Powerlifted Satisficing** [(planner abstract)](abstracts/planner8_powerlifted.pdf)  
+  *Augusto B. Corrêa, Guillem Francès, Markus Hecher, Davide Mario Longo, Jendrik Seipp*  
+  Powerlifted planner using a sequential portfolio configuration
+
+* **DiSCO** [(planner abstract)](abstracts/planner16_disco.pdf)  
+  *Maximilian Fickert, Daniel Gnad*  
+  Satisficing planner based on Decoupled Search and COnjunctions.
+
+* **OpCount4Sat - Satistificng** [(planner abstract)](abstracts/planner10_opcount4sat.pdf)  
+  *?*  
+  Operator Counting Heuristics for Satisficing Planning
+
+* **Hapori Delfi Satisficing** [(planner abstract)](abstracts/planner19_hapori_delfi.pdf)  
+  *Patrick Ferber, Michael Katz, Jendrik Seipp, Silvan Sievers, Daniel Borrajo, Isabel Cenamor, Tomas de la Rosa, Fernando Fernandez-Rebollo, Carlos Linares, Sergio Nunez, Alberto Pozanco, Horst Samulowitz, Shirin Sohrabi*  
+  Planner selection portfolio as described in Deep Learning for Cost-Optimal Planning: Task-Dependent Planner Selection (Sievers AAAI 2019)
+
+* **Hapori MIPlan All Data Sat** [(planner abstract)](abstracts/planner19_hapori_mip2.pdf)  
+  *Patrick Ferber, Michael Katz, Jendrik Seipp, Silvan Sievers, Daniel Borrajo, Isabel Cenamor, Tomas de la Rosa, Fernando Fernandez-Rebollo, Carlos Linares, Sergio Nunez, Alberto Pozanco, Horst Samulowitz, Shirin Sohrabi*  
+  Sequential portfolio of optimal and satisficing IPC planners computed with the MIP formulation by Nunez, Borrajo and Linares (2015).
+
+* **Hapori Greedy Satisficing** [(planner abstract)](abstracts/planner19_hapori_greedy.pdf)  
+  *Patrick Ferber, Michael Katz, Jendrik Seipp, Silvan Sievers, Daniel Borrajo, Isabel Cenamor, Tomas de la Rosa, Fernando Fernandez-Rebollo, Carlos Linares, Sergio Nunez, Alberto Pozanco, Horst Samulowitz, Shirin Sohrabi*  
+  Sequential portfolio of satisficing IPC planners computed with the greedy offline approximation algorithm by Streeter and Smith (UAI 2008).
+
+* **DALAI 2023 Satisficing** [(planner abstract)](abstracts/planner4_dalai.pdf)  
+  *Clemens Büchner, Remo Christen, Salomé Eriksson, Thomas Keller*  
+  Disjunctive Action Landmarks All In -- Path-dependent landmark heuristic search tailored to find some solution fast and improve improve it iteratively.
+
+* **Scorpion Maidu Satisficing** [(planner abstract)](abstracts/planner8_maidu.pdf)  
+  *Augusto B. Corrêa, Guillem Francès, Markus Hecher, Davide Mario Longo, Jendrik Seipp*  
+  Version of the Scorpion planner using width-search algorithms
+
+* **Cerberus** [(planner abstract)](abstracts/planner23_cerberus.pdf)  
+  *Michael Katz*  
+  Planner Cerberus from IPC 2018
+
+* **Approximate Novelty Anytime** [(planner abstract)](abstracts/planner29_ApxNoveltyFD.pdf)  
+  *Anubhav Singh, Nir Lipovetzky, Miquel Ramirez, Javier Segovia-Aguas*  
+  The anytime configuration of the planner. It uses ApxNovelty search to find the first satisficing plan. After which, it switches to lazy wastar with a upper bound on the plan cost, and continues to optimize the solutions until timeout.
+
+* **Hapori Stone Soup Satisficing** [(planner abstract)](abstracts/planner19_hapori_stonesoup.pdf)  
+  *Patrick Ferber, Michael Katz, Jendrik Seipp, Silvan Sievers, Daniel Borrajo, Isabel Cenamor, Tomas de la Rosa, Fernando Fernandez-Rebollo, Carlos Linares, Sergio Nunez, Alberto Pozanco, Horst Samulowitz, Shirin Sohrabi*  
+  Sequential portfolio of satisficing IPC planners computed with the Stone Soup algorithm
+
+* **DecStar-2023** [(planner abstract)](abstracts/planner15_decstar.pdf)  
+  *Daniel Gnad, Alvaro Torralba, Alexander Shleyfman*  
+  Satisficing planner based on decoupled state-space search.
+
+* **OpCount4Sat - Agile** [(planner abstract)](abstracts/planner10_opcount4sat.pdf)  
+  *Daniel Matheus Doebber, André Grahl Pereira, Augusto B. Corrêa*  
+  Operator Counting Heuristics for Satisficing Planning
+
+* **FSM** [(planner abstract)](abstracts/planner20_FSM.pdf)  
+  *Gustavo Prolla Lacroix, Rafael Vales Bettker, André Grahl Pereira*  
+  A learning-based planner for short-time sampling, training, and testing.
+
+* **Forward Backward Anytime Novelty Search** [(planner abstract)](abstracts/planner30_NoveltyFB.pdf)  
+  *Anubhav Singh, Chao Lie, Nir Lipovetzky, Miquel Ramirez, Javier Segovia-Aguas*  
+  The anytime configuration of the planner. It uses Forward Backward Novelty Search search to find the first satisficing plan. After which, it switches to lazy wastar with a upper bound on the plan cost, and continues to optimize the solutions until timeout.
+
+* **Fast Downward Stone Soup 2023 Satisficing** [(planner abstract)](abstracts/planner28_fdss_2023.pdf)  
+  *Clemens Büchner, Remo Christen, Augusto Blaas Corrêa, Salomé Eriksson, Patrick Ferber, Jendrik Seipp, Silvan Sievers*  
+  Portfolio of configurations from the main Fast Downward branch, scheduled with the Stone Soup algorithm.
+
+* **TFTM1** [(planner abstract)](abstracts/planner22_tftm_argmax.pdf)  
+  *Alex Tuisov, Michael Katz*  
+  Planner based on the IJCAI 2021 paper The Fewer the Merrier: [Pruning Preferred Operators with Novelty](https://www.ijcai.org/proceedings/2021/0576.pdf).
+
+* **Hapori Explainable Planner Selection - Linear Regression Satisficing** [(planner abstract)](abstracts/planner19_hapori_epslr.pdf)  
+  *Patrick Ferber, Michael Katz, Jendrik Seipp, Silvan Sievers, Daniel Borrajo, Isabel Cenamor, Tomas de la Rosa, Fernando Fernandez-Rebollo, Carlos Linares, Sergio Nunez, Alberto Pozanco, Horst Samulowitz, Shirin Sohrabi*  
+  Planner selection portfolio as described in Explainable Planner Selection for Classical Planning (AAAI 2022) using Fawcetts et al (ICAPS 2014) PDDL features and linear regression.
+
+* **Hapori IBaCop2 Sat** [(planner abstract)](abstracts/planner19_hapori_ibacop2.pdf)  
+  *Patrick Ferber, Michael Katz, Jendrik Seipp, Silvan Sievers, Daniel Borrajo, Isabel Cenamor, Tomas de la Rosa, Fernando Fernandez-Rebollo, Carlos Linares, Sergio Nunez, Alberto Pozanco, Horst Samulowitz, Shirin Sohrabi*  
+  Sequential portfolio of satisficing IPC planners computed on an instance-based fashion. A set of 5 planners are pre-selected based on PDDL task and heuristic features.
+
+* **Levitron Satisficing** [(planner abstract)](abstracts/planner8_levitron.pdf)  
+  *Augusto B. Corrêa, Guillem Francès, Markus Hecher, Davide Mario Longo, Jendrik Seipp*  
+  Hybrid planner using both the grounded planner Scorpion Maidu and the lifted planner Powerlifted
+
+
+### Agile Track
+
+* **Hapori Explainable Planner Selection - Single Decision Tree Agile** [(planner abstract)](abstracts/planner19_hapori_epsdt.pdf)  
+  *Patrick Ferber, Michael Katz, Jendrik Seipp, Silvan Sievers, Daniel Borrajo, Isabel Cenamor, Tomas de la Rosa, Fernando Fernandez-Rebollo, Carlos Linares, Sergio Nunez, Alberto Pozanco, Horst Samulowitz, Shirin Sohrabi*  
+  Planner selection portfolio as described in Explainable Planner Selection for Classical Planning (AAAI 2022) using Fawcetts et al (ICAPS 2014) PDDL features and linear regression.
+
+* **Hapori Stone Soup Agile** [(planner abstract)](abstracts/planner19_hapori_stonesoup.pdf)  
+  *Patrick Ferber, Michael Katz, Jendrik Seipp, Silvan Sievers, Daniel Borrajo, Isabel Cenamor, Tomas de la Rosa, Fernando Fernandez-Rebollo, Carlos Linares, Sergio Nunez, Alberto Pozanco, Horst Samulowitz, Shirin Sohrabi*  
+  Sequential portfolio of satisficing IPC planners computed with the Stone Soup algorithm
+
+* **Forward Backward Novelty Search** [(planner abstract)](abstracts/planner30_NoveltyFB.pdf)  
+  *Anubhav Singh, Chao Lie, Nir Lipovetzky, Miquel Ramirez, Javier Segovia-Aguas*  
+  Forward Backward Approximate BFWS with novelty approximation and goal count heuristics, f=<#w,#g>, see ICAPS 2021 papers on Approximate Novelty Search and Width-based backward search
+
+* **DiSCO** [(planner abstract)](abstracts/planner16_disco.pdf)  
+  *Maximilian Fickert, Daniel Gnad*  
+  Agile planner based on Decoupled Search and COnjunctions.
+
+* **Hapori Delfi Agile** [(planner abstract)](abstracts/planner19_hapori_delfi.pdf)  
+  *Patrick Ferber, Michael Katz, Jendrik Seipp, Silvan Sievers, Daniel Borrajo, Isabel Cenamor, Tomas de la Rosa, Fernando Fernandez-Rebollo, Carlos Linares, Sergio Nunez, Alberto Pozanco, Horst Samulowitz, Shirin Sohrabi*  
+  Planner selection portfolio as described in Deep Learning for Cost-Optimal Planning: Task-Dependent Planner Selection (Sievers AAAI 2019)
+
+* **Levitron Agile** [(planner abstract)](abstracts/planner8_levitron.pdf)  
+  *Augusto B. Corrêa, Guillem Francès, Markus Hecher, Davide Mario Longo, Jendrik Seipp*  
+  Hybrid planner using both the grounded planner Scorpion Maidu and the lifted planner Powerlifted
+
+* **DALAI 2023 Agile** [(planner abstract)](abstracts/planner4_dalai.pdf)  
+  *Clemens Büchner, Remo Christen, Salomé Eriksson, Thomas Keller*  
+  Disjunctive Action Landmarks All In -- Path-dependent landmark heuristic search tailored to find solutions fast.
+
+* **Grounding Schematic Representation with GRINGO for Width-based Search** [(planner abstract)](abstracts/planner29_ApxNoveltyTarski.pdf)  
+  *Anubhav Singh, Nir Lipovetzky, Miquel Ramirez, Javier Segovia-Aguas, Guillem Francès*  
+  Approximate Best First Width Search with novelty approximation and goal count heuristics, f=<#w,#g>, the planner leverages Tarski to ground the schematic representation of the planning problem, refer https://tarski.readthedocs.io/en/latest/notebooks/grounding-reachability-analysis.html
+
+* **Hapori Explainable Planner Selection - Linear Regression Agile** [(planner abstract)](abstracts/planner19_hapori_epslr.pdf)  
+  *Patrick Ferber, Michael Katz, Jendrik Seipp, Silvan Sievers, Daniel Borrajo, Isabel Cenamor, Tomas de la Rosa, Fernando Fernandez-Rebollo, Carlos Linares, Sergio Nunez, Alberto Pozanco, Horst Samulowitz, Shirin Sohrabi*  
+  Planner selection portfolio as described in Explainable Planner Selection for Classical Planning (AAAI 2022) using Fawcetts et al (ICAPS 2014) PDDL features and linear regression.
+
+* **Scorpion Maidu Agile** [(planner abstract)](abstracts/planner8_maidu.pdf)  
+  *Augusto B. Corrêa, Guillem Francès, Markus Hecher, Davide Mario Longo, Jendrik Seipp*  
+  Version of the Scorpion planner using width-search algorithms
+
+* **TFTM1** [(planner abstract)](abstracts/planner22_tftm_argmax.pdf)  
+  *Alex Tuisov, Michael Katz*  
+  Planner based on the IJCAI 2021 paper The Fewer the Merrier: [Pruning Preferred Operators with Novelty](https://www.ijcai.org/proceedings/2021/0576.pdf).
+
+* **Hapori Greedy Agile** [(planner abstract)](abstracts/planner19_hapori_greedy.pdf)  
+  *Patrick Ferber, Michael Katz, Jendrik Seipp, Silvan Sievers, Daniel Borrajo, Isabel Cenamor, Tomas de la Rosa, Fernando Fernandez-Rebollo, Carlos Linares, Sergio Nunez, Alberto Pozanco, Horst Samulowitz, Shirin Sohrabi*  
+  Sequential portfolio of satisficing IPC planners computed with the greedy offline approximation algorithm by Streeter and Smith (UAI 2008).
+
+* **FTSPlan** [(planner abstract)](TODOfts_ff_agl_agile.pdf)  
+  *Alvaro Torralba*  
+  Optimal planner based on reformulation and search under the merge-and-shrink representation search. After reformulation uses Greedy Best First Search with the FF heuristic.
+
+* **Approximate Novelty** [(planner abstract)](abstracts/planner29_ApxNoveltyFD.pdf)  
+  *Anubhav Singh, Nir Lipovetzky, Miquel Ramirez, Javier Segovia-Aguas*  
+  Approximate Best First Width Search with novelty approximation and goal count heuristics, f=<#w,#g>, leverages Fast Downward to ground the schematic representation of the planning problem
+
+* **Hapori MIPlan All Data Random Order Agl** [(planner abstract)](abstracts/planner19_hapori_mip2.pdf)  
+  *Patrick Ferber, Michael Katz, Jendrik Seipp, Silvan Sievers, Daniel Borrajo, Isabel Cenamor, Tomas de la Rosa, Fernando Fernandez-Rebollo, Carlos Linares, Sergio Nunez, Alberto Pozanco, Horst Samulowitz, Shirin Sohrabi*  
+  Sequential portfolio of satisficing and agile IPC planners computed with the MIP formulation by Nunez, Borrajo and Linares (2015).
+
+* **DecStar-2023** [(planner abstract)](abstracts/planner15_decstar.pdf)  
+  *Daniel Gnad, Alvaro Torralba, Alexander Shleyfman*  
+  Agile planner based on decoupled state-space search.
+
+* **Fast Downward Stone Soup 2023 Agile** [(planner abstract)](abstracts/planner28_fdss_2023.pdf)  
+  *Clemens Büchner, Remo Christen, Augusto Blaas Corrêa, Salomé Eriksson, Patrick Ferber, Jendrik Seipp, Silvan Sievers*  
+  Portfolio of configurations from the main Fast Downward branch, scheduled with the Stone Soup algorithm.
+
+* **TFTM2** [(planner abstract)](abstracts/planner22_tftm_co1.pdf)  
+  *Alex Tuisov, Michael Katz*  
+  Planner based on the IJCAI 2021 paper The Fewer the Merrier: [Pruning Preferred Operators with Novelty](https://www.ijcai.org/proceedings/2021/0576.pdf).
+
+* **FSM** [(planner abstract)](abstracts/planner20_FSM.pdf)  
+  *Gustavo Prolla Lacroix, Rafael Vales Bettker, André Grahl Pereira*  
+  A learning-based planner for short-time sampling, training, and testing.
+
+* **Cerberus** [(planner abstract)](abstracts/planner23_cerberus.pdf)  
+  *Michael Katz*  
+  Planner Cerberus from IPC 2018
+
+* **Powerlifted Agile** [(planner abstract)](abstracts/planner8_powerlifted.pdf)  
+  *Augusto B. Corrêa, Guillem Francès, Markus Hecher, Davide Mario Longo, Jendrik Seipp*  
+  Powerlifted planner using a sequential portfolio configuration
+
+
 
 ## Registration
 To register a team, the participants need to send an e-mail with a
