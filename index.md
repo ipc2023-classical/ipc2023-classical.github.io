@@ -187,7 +187,7 @@ are hard to ground.
   Satisficing planner based on Decoupled Search and COnjunctions.
 
 * **OpCount4Sat - Satistificng** [(planner abstract)](abstracts/planner10_opcount4sat.pdf)  
-  *?*  
+  *Daniel Matheus Doebber, André Grahl Pereira, Augusto B. Corrêa*  
   Operator Counting Heuristics for Satisficing Planning
 
 * **Hapori Delfi Satisficing** [(planner abstract)](abstracts/planner19_hapori_delfi.pdf)  
@@ -226,10 +226,6 @@ are hard to ground.
   *Daniel Gnad, Alvaro Torralba, Alexander Shleyfman*  
   Satisficing planner based on decoupled state-space search.
 
-* **OpCount4Sat - Agile** [(planner abstract)](abstracts/planner10_opcount4sat.pdf)  
-  *Daniel Matheus Doebber, André Grahl Pereira, Augusto B. Corrêa*  
-  Operator Counting Heuristics for Satisficing Planning
-
 * **FSM** [(planner abstract)](abstracts/planner20_FSM.pdf)  
   *Gustavo Prolla Lacroix, Rafael Vales Bettker, André Grahl Pereira*  
   A learning-based planner for short-time sampling, training, and testing.
@@ -260,6 +256,10 @@ are hard to ground.
 
 
 ### Agile Track
+
+* **OpCount4Sat - Agile** [(planner abstract)](abstracts/planner10_opcount4sat.pdf)  
+  *Daniel Matheus Doebber, André Grahl Pereira, Augusto B. Corrêa*  
+  Operator Counting Heuristics for Satisficing Planning
 
 * **Hapori Explainable Planner Selection - Single Decision Tree Agile** [(planner abstract)](abstracts/planner19_hapori_epsdt.pdf)  
   *Patrick Ferber, Michael Katz, Jendrik Seipp, Silvan Sievers, Daniel Borrajo, Isabel Cenamor, Tomas de la Rosa, Fernando Fernandez-Rebollo, Carlos Linares, Sergio Nunez, Alberto Pozanco, Horst Samulowitz, Shirin Sohrabi*  
