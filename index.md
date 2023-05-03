@@ -103,7 +103,7 @@ are hard to ground.
   *Alvaro Torralba*  
   Optimal planner based on reformulation and search under the merge-and-shrink representation search. After reformulation uses A* with the merge-and-shink heuristic.
 
-* **CEGAR Abstractions** [(planner abstract)](abstracts/planner34_cegarabstractions.pdf)  
+* **CEGAR++** [(planner abstract)](abstracts/planner34_cegarplusplus.pdf)  
   *Raphael Kreft, Silvan Sievers*  
   Pattern Databases for interesting patterns up to size 2, patterns computed with hill climbing and CEGAR, combined with domain abstractions and Cartesian abstractions computed with CEGAR in a maximum heuristic over SCP heuristics, generated through greedy computation of hybrid-optimized orders.
 
