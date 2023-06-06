@@ -163,7 +163,7 @@ are hard to ground.
   *Jendrik Seipp*  
   Saturated cost partitioning over abstraction heuristics.
 
-* **ComplementaryPDB** [(planner abstract)](abstracts/planner7_TODO.pdf)  
+* **ComplementaryPDB** [(planner abstract)](abstracts/planner7_ComplementaryPDB.pdf)  
   *Santiago Franco, Stefan Edelkamp, Ionut Moraru*  
   Modified version of complementary heuristic, where we are using completely new bin packing algorithms(paper pending), in situ learning of all the algorithm parameters critical to the pattern selection performance (previously only which pattern generation algorithm we use). Also we have added a new pattern generator inspired on how Gamer chooses a single PDB which it keeps improving. Also the selection algorithm is based on size of search space (previously selection criteria was time). Some features from previous complementary heuristic as in the iJCAI 18 paper are yet to be adapted to this version, e.g. mutation for local search of succesful selection, stratified sampling.
 
