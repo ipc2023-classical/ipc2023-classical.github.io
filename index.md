@@ -67,7 +67,7 @@ preconditions, and conditional effects (possibly in combination with forall,
 as in IPC 2014 and 2018). We will also consider including domains with
 disjunctive preconditions and existential quantifiers, in which case we
 provide an automatic translation compiling these features away, and we run all
-planners on both variants and select the best result per instance.
+planners on both variants and select the best result per domain.
 
 Most planners in previous IPCs rely on a grounding procedure to instantiate
 the entire planning task prior to start solving it. In IPC 2023, we will
