@@ -79,13 +79,9 @@ are hard to ground.
 
 ### Optimal Track
 
-* **SymBD** [(planner abstract)](TODOSymBD_2023_opt_optimal.pdf)  
+* **SymBD** [(planner abstract)](abstracts/planner14_SymBD_2023.pdf)  
   *Alvaro Torralba*  
   Symbolic Bidirectonal Blind Search
-
-* **FTSPlan** [(planner abstract)](TODOfts_sbd_opt_optimal.pdf)  
-  *Alvaro Torralba*  
-  Optimal planner based on reformulation and search under the merge-and-shrink representation search. After reformulation uses symbolic bidirectional search
 
 * **Hapori MIPlan Optimal All Data** [(planner abstract)](abstracts/planner19_hapori_mip2.pdf)  
   *Patrick Ferber, Michael Katz, Jendrik Seipp, Silvan Sievers, Daniel Borrajo, Isabel Cenamor, Tomas de la Rosa, Fernando Fernandez-Rebollo, Carlos Linares, Sergio Nunez, Alberto Pozanco, Horst Samulowitz, Shirin Sohrabi*  
@@ -99,7 +95,11 @@ are hard to ground.
   *Patrick Ferber, Michael Katz, Jendrik Seipp, Silvan Sievers, Daniel Borrajo, Isabel Cenamor, Tomas de la Rosa, Fernando Fernandez-Rebollo, Carlos Linares, Sergio Nunez, Alberto Pozanco, Horst Samulowitz, Shirin Sohrabi*  
   Sequential portfolio of optimal IPC planners computed with the Stone Soup algorithm
 
-* **FTSPlan** [(planner abstract)](TODOfts_ms_opt_optimal.pdf)  
+* **FTSPlan** [(planner abstract)](abstracts/planner13_fts.pdf)  
+  *Alvaro Torralba*  
+  Optimal planner based on reformulation and search under the merge-and-shrink representation search. After reformulation uses symbolic bidirectional search
+
+* **FTSPlan** [(planner abstract)](abstracts/planner13_fts.pdf)  
   *Alvaro Torralba*  
   Optimal planner based on reformulation and search under the merge-and-shrink representation search. After reformulation uses A* with the merge-and-shink heuristic.
 
@@ -107,7 +107,7 @@ are hard to ground.
   *Raphael Kreft, Silvan Sievers*  
   Pattern Databases for interesting patterns up to size 2, patterns computed with hill climbing and CEGAR, combined with domain abstractions and Cartesian abstractions computed with CEGAR in a maximum heuristic over SCP heuristics, generated through greedy computation of hybrid-optimized orders.
 
-* **QDom-Lmcut** [(planner abstract)](TODOdom_opt_optimal.pdf)  
+* **QDom-Lmcut** [(planner abstract)](abstracts/planner32_dom.pdf)  
   *Alvaro Torralba*  
   Dominance Pruning
 
@@ -313,7 +313,7 @@ are hard to ground.
   *Patrick Ferber, Michael Katz, Jendrik Seipp, Silvan Sievers, Daniel Borrajo, Isabel Cenamor, Tomas de la Rosa, Fernando Fernandez-Rebollo, Carlos Linares, Sergio Nunez, Alberto Pozanco, Horst Samulowitz, Shirin Sohrabi*  
   Sequential portfolio of satisficing IPC planners computed with the greedy offline approximation algorithm by Streeter and Smith (UAI 2008).
 
-* **FTSPlan** [(planner abstract)](TODOfts_ff_agl_agile.pdf)  
+* **FTSPlan** [(planner abstract)](abstracts/planner13_fts.pdf)  
   *Alvaro Torralba*  
   Optimal planner based on reformulation and search under the merge-and-shrink representation search. After reformulation uses Greedy Best First Search with the FF heuristic.
 
