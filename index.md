@@ -124,6 +124,10 @@ IPC.
 </details>
 <br />
 
+### Outstanding Domain Submission Award
+- **Winner:** Quantum Circuit Layout Synthesis <br />
+  by Irfansha Shaik and Jaco van de Pol
+
 ## Calls
 Please forward the following calls to all interested parties.
 
