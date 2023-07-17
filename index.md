@@ -124,9 +124,18 @@ IPC.
 </details>
 <br />
 
-### Outstanding Domain Submission Award
-- **Winner:** Quantum Circuit Layout Synthesis <br />
+### Domains
+- **Outstanding Domain Submission Award:** Quantum Circuit Layout Synthesis <br />
   by Irfansha Shaik and Jaco van de Pol
+
+New domains:
+- [Folding](https://github.com/ipc2023-classical/domain-folding)
+- [Labyrinth](https://github.com/ipc2023-classical/domain-labyrinth)
+- [Quantum Circuit Layout Synthesis](https://github.com/ipc2023-classical/domain-quantum-layout)
+- [Recharging Robots](https://github.com/ipc2023-classical/domain-recharging-robots)
+- [Ricochet Robots](https://github.com/ipc2023-classical/domain-ricochet-robots)
+- [Rubik's Cube](https://github.com/ipc2023-classical/domain-rubiks-cube)
+- [Slitherlink](https://github.com/ipc2023-classical/domain-slitherlink)
 
 ## Calls
 Please forward the following calls to all interested parties.
