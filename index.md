@@ -8,6 +8,13 @@ IPC.
 ## Results
 
 ### Optimal Track
+- **Winner:** Ragnarok <br />
+  by Dominik Drexler, Daniel Gnad, Paul Höft, Jendrik Seipp, David Speck, and Simon Ståhlberg
+- **Runner-up:** Scorpion 2023 <br />
+  by Jendrik Seipp
+- **Runner-up:** Odin <br />
+  by Dominik Drexler, Jendrik Seipp, and David Speck
+
 <details>
 <summary>Optimal Track Results Table</summary>
 
@@ -39,8 +46,14 @@ IPC.
 |fts-sbd-opt| 1| 0| 4| 13| 0| 0| 4| 22|
 
 </details>
+<br />
 
 ### Satisficing Track
+- **Winner:** Scorpion Maidu and Levitron <br />
+  by Augusto B. Corrêa, Guillem Francès, Markus Hecher, Davide Mario Longo, and Jendrik Seipp
+- **Runner-up:** Fast Downward Stone Soup 2023 <br />
+  by Clemens Büchner, Remo Christen, Augusto Blaas Corrêa, Salomé Eriksson, Patrick Ferber, Jendrik Seipp, and Silvan Sievers
+
 <details>
 <summary>Satisficing Track Results Table</summary>
 
@@ -71,8 +84,13 @@ IPC.
 |hapori-greedy-sat| 0.00| 0.00| 0.00| 0.00| 0.00| 0.00| 0.00| 0.00|
 
 </details>
+<br />
 
 ### Agile Track
+- **Winner:** DecStar-2023 <br />
+  by Daniel Gnad, Álvaro Torralba, and Alexander Shleyfman
+- **Runner-up:** Fast Downward Stone Soup 2023 <br />
+  by Clemens Büchner, Remo Christen, Augusto Blaas Corrêa, Salomé Eriksson, Patrick Ferber, Jendrik Seipp, and Silvan Sievers
 
 <details>
 <summary>Agile Track Results Table</summary>
@@ -104,6 +122,7 @@ IPC.
 |hapori-greedy-agl| 0.00| 0.00| 0.00| 0.00| 0.00| 0.00| 0.00| 0.00|
 
 </details>
+<br />
 
 ## Calls
 Please forward the following calls to all interested parties.
