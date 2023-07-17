@@ -128,6 +128,8 @@ IPC.
 - **Outstanding Domain Submission Award:** Quantum Circuit Layout Synthesis <br />
   by Irfansha Shaik and Jaco van de Pol
 
+- Repository with all competition tasks: [link](https://github.com/ipc2023-classical/ipc2023-dataset)
+
 New domains:
 - [Folding](https://github.com/ipc2023-classical/domain-folding)
 - [Labyrinth](https://github.com/ipc2023-classical/domain-labyrinth)
