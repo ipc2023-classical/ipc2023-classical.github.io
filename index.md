@@ -6,6 +6,10 @@ This is the 10th IPC containing classical tracks making it the oldest part of
 IPC.
 
 ## Results
+The results were presented at the 33rd International Conference on Automated
+Planning and Scheduling on July 11 in Prague.
+The [presentation slides](results/presentation.pdf) of this talk contain
+additional details.
 
 ### Optimal Track
 - **Winner:** Ragnarok <br />
