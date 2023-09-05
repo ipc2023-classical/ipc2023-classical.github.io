@@ -6,6 +6,9 @@ This is the 10th IPC containing classical tracks making it the oldest part of
 IPC.
 
 ## Results
+
+[![Result Presentation](pictures/participants-thumbnail.jpg)](pictures/participants.jpg)
+
 The results were presented at the 33rd International Conference on Automated
 Planning and Scheduling on July 11 in Prague.
 The [presentation slides](results/presentation.pdf) of this talk contain
@@ -13,11 +16,14 @@ additional details.
 
 ### Optimal Track
 - **Winner:** Ragnarok <br />
-  by Dominik Drexler, Daniel Gnad, Paul Höft, Jendrik Seipp, David Speck, and Simon Ståhlberg
+  by Dominik Drexler, Daniel Gnad, Paul Höft, Jendrik Seipp, David Speck, and Simon Ståhlberg <br />
+  [![Winner Optimal Track](pictures/winner-opt-thumbnail.jpg)](pictures/winner-opt.jpg)
 - **Runner-up:** Scorpion 2023 <br />
-  by Jendrik Seipp
+  by Jendrik Seipp <br />
+  [![Runner-up Optimal Track](pictures/runner-up1-opt-thumbnail.jpg)](pictures/runner-up1-opt.jpg)
 - **Runner-up:** Odin <br />
-  by Dominik Drexler, Jendrik Seipp, and David Speck
+  by Dominik Drexler, Jendrik Seipp, and David Speck <br />
+  [![Runner-up Optimal Track](pictures/runner-up2-opt-thumbnail.jpg)](pictures/runner-up2-opt-opt.jpg)
 
 <details>
 <summary>Optimal Track Results Table</summary>
@@ -54,9 +60,11 @@ additional details.
 
 ### Satisficing Track
 - **Winner:** Scorpion Maidu and Levitron <br />
-  by Augusto B. Corrêa, Guillem Francès, Markus Hecher, Davide Mario Longo, and Jendrik Seipp
+  by Augusto B. Corrêa, Guillem Francès, Markus Hecher, Davide Mario Longo, and Jendrik Seipp <br />
+  [![Winner Satisficing Track](pictures/winner-sat-thumbnail.jpg)](pictures/winner-sat.jpg)
 - **Runner-up:** Fast Downward Stone Soup 2023 <br />
-  by Clemens Büchner, Remo Christen, Augusto Blaas Corrêa, Salomé Eriksson, Patrick Ferber, Jendrik Seipp, and Silvan Sievers
+  by Clemens Büchner, Remo Christen, Augusto Blaas Corrêa, Salomé Eriksson, Patrick Ferber, Jendrik Seipp, and Silvan Sievers <br />
+  [![Runner-up Satisficing Track](pictures/runner-up-sat-agl-thumbnail.jpg)](pictures/runner-up-sat-agl.jpg)
 
 <details>
 <summary>Satisficing Track Results Table</summary>
@@ -92,9 +100,11 @@ additional details.
 
 ### Agile Track
 - **Winner:** DecStar-2023 <br />
-  by Daniel Gnad, Álvaro Torralba, and Alexander Shleyfman
+  by Daniel Gnad, Álvaro Torralba, and Alexander Shleyfman <br />
+  [![Winner Agile Track](pictures/winner-agl-thumbnail.jpg)](pictures/winner-agl.jpg)
 - **Runner-up:** Fast Downward Stone Soup 2023 <br />
-  by Clemens Büchner, Remo Christen, Augusto Blaas Corrêa, Salomé Eriksson, Patrick Ferber, Jendrik Seipp, and Silvan Sievers
+  by Clemens Büchner, Remo Christen, Augusto Blaas Corrêa, Salomé Eriksson, Patrick Ferber, Jendrik Seipp, and Silvan Sievers <br />
+  [![Runner-up Agile Track](pictures/runner-up-sat-agl-thumbnail.jpg)](pictures/runner-up-sat-agl.jpg)
 
 <details>
 <summary>Agile Track Results Table</summary>
@@ -130,7 +140,8 @@ additional details.
 
 ### Domains
 - **Outstanding Domain Submission Award:** Quantum Circuit Layout Synthesis <br />
-  by Irfansha Shaik and Jaco van de Pol
+  by Irfansha Shaik and Jaco van de Pol <br />
+  [![Winner Outstanding Domain Submission Award](pictures/winner-dom-thumbnail.jpg)](pictures/winner-dom.jpg)
 
 - Repository with all competition tasks: [link](https://github.com/ipc2023-classical/ipc2023-dataset)
 
