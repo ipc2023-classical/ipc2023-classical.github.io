@@ -244,12 +244,8 @@ are hard to ground.
   Sequential portfolio of optimal IPC planners computed with the Stone Soup algorithm
 
 * **FTSPlan** [(planner abstract)](abstracts/planner13_fts.pdf)  
-  *Alvaro Torralba*  
-  Optimal planner based on reformulation and search under the merge-and-shrink representation search. After reformulation uses symbolic bidirectional search
-
-* **FTSPlan** [(planner abstract)](abstracts/planner13_fts.pdf)  
-  *Alvaro Torralba*  
-  Optimal planner based on reformulation and search under the merge-and-shrink representation search. After reformulation uses A* with the merge-and-shink heuristic.
+  *Álvaro Torralba, Silvan Sievers, Rasmus G. Tollund, Kristian Ø. Nielsen*  
+  Optimal planner based on reformulation and search under the merge-and-shrink representation search. After reformulation uses symbolic bidirectional search or A* with the merge-and-shink heuristic, depending on the configuration.
 
 * **CEGAR++** [(planner abstract)](abstracts/planner34_cegarplusplus.pdf)  
   *Raphael Kreft, Silvan Sievers*  
@@ -462,7 +458,7 @@ are hard to ground.
   Sequential portfolio of satisficing IPC planners computed with the greedy offline approximation algorithm by Streeter and Smith (UAI 2008).
 
 * **FTSPlan** [(planner abstract)](abstracts/planner13_fts.pdf)  
-  *Alvaro Torralba*  
+  *Álvaro Torralba, Silvan Sievers, Rasmus G. Tollund, Kristian Ø. Nielsen*  
   Optimal planner based on reformulation and search under the merge-and-shrink representation search. After reformulation uses Greedy Best First Search with the FF heuristic.
 
 * **Approximate Novelty** [(planner abstract)](abstracts/planner29_ApxNoveltyFD.pdf)  
