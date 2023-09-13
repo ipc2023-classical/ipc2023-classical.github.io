@@ -143,9 +143,12 @@ additional details.
   by Irfansha Shaik and Jaco van de Pol <br />
   [![Winner Outstanding Domain Submission Award](pictures/winner-dom-thumbnail.jpg)](pictures/winner-dom.jpg)
 
-- Repository with all competition tasks: [link](https://github.com/ipc2023-classical/ipc2023-dataset)
 
-New domains:
+## IPC 2023 Dataset
+Repository with all competition tasks can be found
+[here](https://github.com/ipc2023-classical/ipc2023-dataset).
+
+List of competition domains:
 - [Folding](https://github.com/ipc2023-classical/domain-folding)
 - [Labyrinth](https://github.com/ipc2023-classical/domain-labyrinth)
 - [Quantum Circuit Layout Synthesis](https://github.com/ipc2023-classical/domain-quantum-layout)
@@ -153,6 +156,7 @@ New domains:
 - [Ricochet Robots](https://github.com/ipc2023-classical/domain-ricochet-robots)
 - [Rubik's Cube](https://github.com/ipc2023-classical/domain-rubiks-cube)
 - [Slitherlink](https://github.com/ipc2023-classical/domain-slitherlink)
+
 
 ## Calls
 Please forward the following calls to all interested parties.
