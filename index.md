@@ -158,6 +158,32 @@ List of competition domains:
 - [Slitherlink](https://github.com/ipc2023-classical/domain-slitherlink)
 
 
+## Using IPC 2023 planners
+
+All participating planners can be used as Apptainer images. To build such an image, [install Apptainer](https://github.com/apptainer/apptainer/releases) and clone the corresponding planner repository. You can find links to them in the [list of participants](#participants). Code repositories contain two branches: `ipc2023-classical` contains exactly the code version that ran in the IPC, while `latest` can contain additional bug fixes published after the competition. We recommend using `latest` for all experiments. Some code repositories contain multiple Apptainer files for different planners that share a code base. Use Apptainer to build the planner from one of those recipes like this:
+
+
+```
+git clone https://github.com/ipc2023-classical/planner8.git
+cd planner8
+sudo apptainer build maidu_sat.sif Apptainer.maidu_sat
+```
+
+Some planners require CPLEX to run. To use them, you have to acquire a CPLEX license (IBM offers [free academic licenses](https://www.ibm.com/academic/)) and download the installer file `cplex_studio2211.linux_x86_64.bin`. Place it into a directory and use the environment variable `IPC_THIRD_PARTY` to identify it.
+
+```
+export IPC_THIRD_PARTY=/path/to/some/directory
+cp cplex_studio2211.linux_x86_64.bin $IPC_THIRD_PARTY
+
+git clone https://github.com/ipc2023-classical/planner17.git
+cd planner17
+sudo apptainer build ragnarok.sif Apptainer.ragnarok
+```
+
+
+All planners are also available through [planutils](https://github.com/AI-Planning/planutils).
+
+
 ## Calls
 Please forward the following calls to all interested parties.
 
