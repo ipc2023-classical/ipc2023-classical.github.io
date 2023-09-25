@@ -204,7 +204,7 @@ Please forward the following calls to all interested parties.
 | Planner Abstract submission deadline          | April 21, 2023     |
 | Contest run                                   | May - June, 2023   |
 | Results announced                             | July, 2023         |
-| Result analysis deadline                      | August, 2023       |
+| Result analysis deadline                      | October 31, 2023   |
 
 
 ## Tracks
